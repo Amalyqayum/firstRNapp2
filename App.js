@@ -25,7 +25,8 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
-  console.log('I am a console statement');
+  console.log('Welcome to C308 Lesson 04 quiz!');
+  console.log('Your component here');
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -41,26 +42,9 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text style={styles.highlight}>Welcome to Republic Polytechnic</Text>
-              <Text style={styles.sectionTitle}>About Us</Text>
-              <Text style={styles.sectionDescription}>At <Text style={styles.highlight}>Republic Polytechnic</Text>, we will help you to Discover your potential, Transform opportunities into realities and Achieve your goals. We will support you on your unique learning journey, every step of the way.
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Engaging Learning Experience</Text>
-              <Text style={styles.sectionDescription}>Fun, active, engaging and goes beyond listening to lectures and memorising facts. Through our <Text style={styles.highlight}>Problem-based Learning (PBL)</Text> and other learner-centred approaches, you will have the opportunity to think critically, analyse problems and develop solutions while working in groups.
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Further Studies</Text>
-              <Text style={styles.sectionDescription}>As an RP graduate, you will have skills that will resonate throughout your entire life. Your professionalism, problem-solving skills and passion for life will give you an edge in any career you choose to pursue. Many RP graduates have gained recognition in various industries, both locally and overseas.
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See more at</Text>
-              <Text style={styles.sectionDescription}>
-                https://www.rp.edu.sg/home
-              </Text>
+              <Text style={styles.sectionTitle}>Set Pickup Time</Text>
+                <Text style={styles.sectionDescription}>Set a time you would like us to arrive at your pickup location</Text>
+                <Text style={styles.highlight}>RP Furniture Shop</Text>
             </View>
             <LearnMoreLinks />
           </View>
